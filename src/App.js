@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Trabajando una aplicación en <br></br>React un framework de
-          javaScripts
+          javaScripts..
         </p>
         <PrimerComponente></PrimerComponente>
       </header>
