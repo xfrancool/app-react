@@ -5,10 +5,10 @@ export const PrimerComponente = () => {
   let web = "https://portafolio-jobs.netlify.app/";
 
   let habilidad = [
-    "Desarrollador Web",
+    "Desarrollador Front-end",
     "Seo",
-    "Resposive Desing",
     "Maquetación",
+    "Resposive Desing",
     "Desing Frontend",
   ];
   /* let skill = [
