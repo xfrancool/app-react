@@ -11,7 +11,7 @@ export const PrimerComponente = () => {
     "Maquetación",
     "Desing Frontend",
   ];
-  let skill = [
+  /* let skill = [
     "HTML5",
     "CSS",
     "SASS",
@@ -24,12 +24,14 @@ export const PrimerComponente = () => {
     "Heroku",
     "Github",
     "Visual Estudio",
-  ];
+  ]; */
 
   return (
     <div>
       <h3>{nombre}</h3>
-      <a>{web}</a>
+
+      <a href="https://portafolio-jobs.netlify.app/">Portafolio de trabajo</a>
+
       <ul>
         {habilidad.map((habilidad, indice) => {
           return <li key={indice}>{habilidad}</li>;
@@ -37,9 +39,21 @@ export const PrimerComponente = () => {
       </ul>
       <p>Work Tools</p>
       <ul>
-        {skill.map((skill, indice) => {
-          return <li key={indice}>{skill}</li>;
-        })}
+        <box-icon type="logo" name="html5"></box-icon>
+        <box-icon name="css3" type="logo"></box-icon>
+        <box-icon type="logo" name="javascript"></box-icon>
+        <box-icon type="logo" name="react"></box-icon>
+        <box-icon name="nodejs" type="logo"></box-icon> <br></br>
+        <box-icon name="heroku" type="logo"></box-icon>
+        <box-icon name="netlify" type="logo"></box-icon>
+        <box-icon name="mongodb" type="logo"></box-icon>
+        <box-icon name="sass" type="logo"></box-icon>
+        <br></br>
+        <box-icon name="less" type="logo"></box-icon>
+        <box-icon type="logo" name="bootstrap"></box-icon>
+        <box-icon name="git" type="logo"></box-icon>
+        <box-icon name="github" type="logo"></box-icon>
+        <box-icon name="visual-studio" type="logo"></box-icon>
       </ul>
     </div>
   );
