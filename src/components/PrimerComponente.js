@@ -30,7 +30,9 @@ export const PrimerComponente = () => {
     <div>
       <h3>{nombre}</h3>
 
-      <a href="https://portafolio-jobs.netlify.app/">Portafolio de trabajo</a>
+      <a href="https://portafolio-jobs.netlify.app/" target="_blank">
+        Portafolio de trabajo
+      </a>
 
       <ul>
         {habilidad.map((habilidad, indice) => {
@@ -39,21 +41,21 @@ export const PrimerComponente = () => {
       </ul>
       <p>Work Tools</p>
       <ul>
-        <box-icon type="logo" name="html5"></box-icon>
-        <box-icon name="css3" type="logo"></box-icon>
-        <box-icon type="logo" name="javascript"></box-icon>
-        <box-icon type="logo" name="react"></box-icon>
-        <box-icon name="nodejs" type="logo"></box-icon> <br></br>
-        <box-icon name="heroku" type="logo"></box-icon>
-        <box-icon name="netlify" type="logo"></box-icon>
-        <box-icon name="mongodb" type="logo"></box-icon>
-        <box-icon name="sass" type="logo"></box-icon>
+        <box-icon type="logo" name="html5" size="md"></box-icon>
+        <box-icon name="css3" type="logo" size="md"></box-icon>
+        <box-icon type="logo" name="javascript" size="md"></box-icon>
+        <box-icon type="logo" name="react" size="md"></box-icon>
+        <box-icon name="nodejs" type="logo" size="md"></box-icon> <br></br>
+        <box-icon name="heroku" type="logo" size="md"></box-icon>
+        <box-icon name="netlify" type="logo" size="md"></box-icon>
+        <box-icon name="mongodb" type="logo" size="md"></box-icon>
+        <box-icon name="sass" type="logo" size="md"></box-icon>
         <br></br>
-        <box-icon name="less" type="logo"></box-icon>
-        <box-icon type="logo" name="bootstrap"></box-icon>
-        <box-icon name="git" type="logo"></box-icon>
-        <box-icon name="github" type="logo"></box-icon>
-        <box-icon name="visual-studio" type="logo"></box-icon>
+        <box-icon name="less" type="logo" size="md"></box-icon>
+        <box-icon type="logo" name="bootstrap" size="md"></box-icon>
+        <box-icon name="git" type="logo" size="md"></box-icon>
+        <box-icon name="github" type="logo" size="md"></box-icon>
+        <box-icon name="visual-studio" type="logo" size="md"></box-icon>
       </ul>
     </div>
   );
